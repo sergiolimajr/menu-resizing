@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header, a, ul, li{
+	-webkit-transition: linear all .4s; /* Safari and Chrome */
+	   -moz-transition: linear all .4s; /* Firefox 4 */
+	     -o-transition: linear all .4s; /* Opera */
+			transition: linear all .4s;
+}
+
+
+body {
+	background: #48BEAB;
+}
+
+/* Tamanho normal */
+header {
+	background: #EBEBEB;
+	box-shadow: .0em .0em .3em #3e3e3e;
+	opacity: .70;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+
+.grande {
+	height: 120px;
+}
+
+	.grande ul {
+		list-style: none;
+		text-align: center;
+		margin-top: 45px;
+	}
+
+		.grande li {
+			display: inline;
+			margin: 0 30px 0 30px;
+		}
+
+			.grande a {
+				text-decoration: none;
+				font-size: 1.3em;
+				font-weight: 600;
+				font-family: 'Merriweather', sans-serif;
+				color: #43ACAB;
+			}
+
+			.grande a:hover {
+				color: #222;
+			}
+
+
+/* Redimensionamento com Scroll */
+
+	.pequeno {
+		height: 50px;
+	}
+
+		.pequeno ul {
+			list-style: none;
+			text-align: center;
+			margin-top: 13px;
+		}
+
+			.pequeno li {
+				display: inline;
+				margin: 0 30px 0 30px;
+			}
+
+				.pequeno a {
+					text-decoration: none;
+					font-size: 1.3em;
+					font-weight: 600;
+					font-family: 'Merriweather', sans-serif;
+					color: #43ACAB;
+				}
+
+				.pequeno a:hover {
+					color: #222;
+				}
+
+/* Texto */
+
+section.screenplay {
+	float: left;
+	height: 500px;
+	width: 100%;
+}
+
+	section.screenplay p {
+		font-family: 'Merriweather', sans-serif;
+		font-size: 25px;
+		color: #333;
+		text-align: center;
+		position: relative;
+		margin-top: 250px;
+	}
+
+	section.screenplay p.bottom {
+		top: 100%;
+	}

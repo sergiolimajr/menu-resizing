@@ -12,7 +12,7 @@ header, a, ul, li{
 
 
 body {
-	background: #48BEAB;
+	background: #48BEAB url("http://saopaulo.herokuapp.com/images/noise.png");
 }
 
 /* Tamanho normal */
